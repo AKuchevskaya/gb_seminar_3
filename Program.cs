@@ -5,10 +5,33 @@
 // // 12821 -> да
 // // 23432 -> да
 
+Console.Write("Введите пятизначное число: ");
+string number = Console.ReadLine()!;
 
+// Решение припомощи булева метода
+CheckingPolindrom(number);
 
-// Console.Write("Введите пятизначное число: ");
-// string number = Console.ReadLine()!;
+bool CheckingPolindrom(string number)
+{
+    if (number.Length == 5)
+    {
+        if (number[0] == number[4] && number[1] == number[3])
+        {
+            System.Console.WriteLine($"{number} -> да");
+        }
+        else
+        {
+            System.Console.WriteLine($"{number} -> нет");
+        } 
+    }
+    else
+    {
+        System.Console.Write("Число не является пятизначным");
+        return false;
+    }
+    return true;
+}
+
 
 // void CheckNumber(string number) 
 // {
@@ -61,27 +84,27 @@
 // double result = Distance(a[0], a[1], a[2], b[0], b[1], b[2]);
 // System.Console.WriteLine($"Расстояние между точками: {result}");
 
-// Задача 23
-// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// // Задача 23
+// // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-// 3 -> 1, 8, 27
-// 5 -> 1, 8, 27, 64, 125
+// // 3 -> 1, 8, 27
+// // 5 -> 1, 8, 27, 64, 125
 
-int ReadInt(string text)
-{
-    System.Console.Write(text);
-    return Convert.ToInt32(Console.ReadLine());
-}
+// int ReadInt(string text)
+// {
+//     System.Console.Write(text);
+//     return Convert.ToInt32(Console.ReadLine());
+// }
 
-void NumbersPow(int number)
-{
+// void NumbersPow(int number)
+// {
     
-    for (int i = 1; i <= number; i++)
-    {
-        double result = Math.Pow(i, 3);
-        System.Console.Write($"{result} ");
-    }
-}
+//     for (int i = 1; i <= number; i++)
+//     {
+//         double result = Math.Pow(i, 3);
+//         System.Console.Write($"{result} ");
+//     }
+// }
 
-int number = ReadInt("Введите число: ");
-NumbersPow(number);
+// int number = ReadInt("Введите число: ");
+// NumbersPow(number);
