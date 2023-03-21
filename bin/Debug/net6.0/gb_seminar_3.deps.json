@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "gb_seminar_4/1.0.0": {
+      "gb_seminar_3/1.0.0": {
         "runtime": {
-          "gb_seminar_4.dll": {}
+          "gb_seminar_3.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "gb_seminar_4/1.0.0": {
+    "gb_seminar_3/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

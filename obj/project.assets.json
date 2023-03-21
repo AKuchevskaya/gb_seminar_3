@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alenakucevskaa/Desktop/gb_seminar_4/gb_seminar_4.csproj",
-      "projectName": "gb_seminar_4",
-      "projectPath": "/Users/alenakucevskaa/Desktop/gb_seminar_4/gb_seminar_4.csproj",
+      "projectUniqueName": "/Users/alenakucevskaa/Desktop/gb_seminar_3/gb_seminar_3.csproj",
+      "projectName": "gb_seminar_3",
+      "projectPath": "/Users/alenakucevskaa/Desktop/gb_seminar_3/gb_seminar_3.csproj",
       "packagesPath": "/Users/alenakucevskaa/.nuget/packages/",
-      "outputPath": "/Users/alenakucevskaa/Desktop/gb_seminar_4/obj/",
+      "outputPath": "/Users/alenakucevskaa/Desktop/gb_seminar_3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alenakucevskaa/.nuget/NuGet/NuGet.Config"
