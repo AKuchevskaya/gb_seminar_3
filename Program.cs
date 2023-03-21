@@ -5,6 +5,32 @@
 // 12821 -> да
 // 23432 -> да
 
+
+
+Console.WriteLine("Введите пятизначное число: ");
+string number = Console.ReadLine()!;
+
+void CheckNumber(string number) 
+{
+    if (number[0] == number[4] && number[1] == number[3])
+    {
+        System.Console.WriteLine($"{number} -> да");
+    }
+    else
+    {
+        System.Console.WriteLine($"{number} -> нет");
+    }
+}
+
+if (number.Length == 5)
+{
+    CheckNumber(number);
+}
+else 
+{
+    System.Console.Write("Число не является пятизначным");
+}
+
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
